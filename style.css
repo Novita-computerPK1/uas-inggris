@@ -1,0 +1,480 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    min-height: 400vh;
+    background-image: url('bg1.jpg'); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow-x: hidden;
+}    
+
+section {
+    position: relative;
+    border-radius: 1%;
+    right: -15px;
+    top: 40px;
+    left: 68px;
+    width: 89%;
+    align-items: center;
+    min-height: 395vh;
+    padding: 100px;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0px 12px 12px 20px rgba(10, 10, 10, 0.25);
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title .logo {
+    position: relative;
+    top: -50px;
+    font-size: 2em;
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.title h5 {
+    position: relative;
+    top: -50px;
+}
+
+.title .nav-img {
+    position: relative;
+    padding: 10px;
+    top: -50px;
+    height: 60px;
+    width: 50px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 50px 50px;
+    background: rgb(245, 88, 26);
+}
+
+.title img {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    top: 0;
+    right: 2px;
+    filter: invert(1);
+}
+
+/*barner design*/
+
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: space-between;
+    display: flex;
+}
+
+.banner .content {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-right: 100px;
+}
+
+.banner .content h1 {
+    font-size: 2.9em;
+    color: #000;
+    line-height: 1em;
+    padding-bottom: 20px;
+}
+
+.banner .content .btn {
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    background: rgb(245, 88, 26);
+    color: #000;
+    height: 48px;
+    width: 180px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: 1%;
+}
+
+.banner .content .btn:hover {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 20px;
+    letter-spacing: 2px;
+}
+
+.banner .content ul {
+    display: flex;
+    padding-top: 70px;
+}
+
+.banner .content ul li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.banner .content ul li a img {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    transition: 1%;
+    margin-top: 3rem;
+}
+
+.banner .content ul li a:hover img {
+    transform: translateY(-15px);
+}
+
+.banner .ban_img img {
+    position: relative;
+    width: 30rem;
+    height: auto;
+    transition: 1%;
+    margin-top: -25rem;
+    margin-left: 32rem;
+}
+
+/*List */
+.items {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.items .box {
+    position: relative;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.items .box .info {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.items .box .info h5 {
+    font-size: 1.4em;
+    padding-top: 10px;
+    padding: 10px;
+}
+
+.items .box .info h6 {
+    font-size: 0.9em;
+    text-decoration: none;
+    padding: 10px;
+    color: #333;
+}
+
+.items .box .info p {
+    font-size: 1em;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.items .box .info a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    background: rgb(245, 88, 26);
+    color: #000;
+    height: 50px;
+    width: 170px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.items .box .info a:hover {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 20px;
+    letter-spacing: 2px;
+}
+
+.items .box .imgBx img {
+    position: relative;
+    margin: auto;
+    margin-top: -13rem;
+    margin-right: -20rem;
+    height: auto;
+    width: 125px;
+}
+
+.items .box .like img {
+    position: relative;
+    margin-top: 78px;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    margin-left: 1px;
+}
+
+
+/*outher*/
+
+.outher_items {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.outher_items .contentBx {
+    max-width: 650px;
+    padding: 20px;
+}
+
+.outher_items .contentBx h3 {
+    font-size: 3.5rem;
+    color: #000;
+    line-height: 1em;
+    padding-bottom: 30px;
+}
+
+.outher_items .contentBx p {
+    font-size: 1em;
+    color: #000;
+    line-height: 1em;
+    padding-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.outher_items .contentBx a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    background: rgb(245, 88, 26);
+    color: #000;
+    height: 50px;
+    width: 170px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.outher_items .contentBx a:hover {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 20px;
+    letter-spacing: 2px;
+}
+
+.outher_items .outher_img img {
+    position: relative;
+    width: 30rem;
+    height: auto;
+}
+
+
+/*boy delivery*/
+
+.delivery {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.delivery .contentBx {
+    max-width: 650px;
+    padding: 20px;
+}
+
+.delivery .contentBx h3 {
+    font-size: 3.5rem;
+    color: #000;
+    line-height: 1em;
+    padding-bottom: 30px;
+}
+
+.delivery .contentBx p {
+    font-size: 1em;
+    color: #000;
+    line-height: 1em;
+    padding-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.delivery .contentBx a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    background: rgb(245, 88, 26);
+    color: #000;
+    height: 50px;
+    width: 170px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.delivery .contentBx a:hover {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 20px;
+    letter-spacing: 2px;
+}
+
+.delivery .boy img {
+    position: relative;
+    width: 26rem;
+    height: auto;
+}
+
+
+/*Reserve*/
+
+.reserve {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    border-bottom: 2px solid #000;
+}
+
+.reserve h3 {
+    font-size: 2.5rem;
+    color: #000;
+    line-height: 1em;
+
+}
+
+.reserve a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    background: rgb(245, 88, 26);
+    color: #000;
+    height: 50px;
+    width: 170px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.reserve a:hover {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 20px;
+    letter-spacing: 2px;
+}
+
+
+/*footer*/
+
+.footer {
+    padding-top: 50px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.footer .name a {
+    position: relative;
+    top: -50px;
+    font-size: 2em;
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+}
+
+.footer .name h6 {
+    position: relative;
+    color: #000;
+}
+
+.footer .our_service h4 {
+    font-size: 2em;
+    color: #000;
+    padding-bottom: 5px;
+}
+
+.footer .our_service ul li {
+    list-style: none;
+    padding-bottom: 5px;
+    font-size: 1em;
+    color: #000;
+}
+
+.footer .our_company h4 {
+    font-size: 2em;
+    color: #000;
+    padding-bottom: 5px;
+}
+
+.footer .our_company ul li {
+    list-style: none;
+    padding-bottom: 5px;
+    font-size: 1em;
+    color: #000;
+}
+
+.footer .address h4 {
+    font-size: 2em;
+    color: #000;
+    padding-bottom: 5px;
+}
+
+.footer .address ul li {
+    list-style: none;
+    padding-bottom: 5px;
+    font-size: 1em;
+    color: #000;
+}
+
+.footer .name .logo {
+    font-size: 2em;
+    color: #000;
+    padding-bottom: 5px;
+}
